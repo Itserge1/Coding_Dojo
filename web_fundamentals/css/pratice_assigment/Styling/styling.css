@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.text{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+h2{
+    background-color: rgb(94, 2, 112);
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    background-color: rgb(67, 114, 216);
+    color: whitesmoke;
+    text-align: end;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+span{
+    color: rgb(6, 238, 238);
+}
+#maring{
+    margin: 10px;
+}
