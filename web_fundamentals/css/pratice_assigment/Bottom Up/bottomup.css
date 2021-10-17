@@ -1,0 +1,31 @@
+.box1 {
+    height: 20px;
+    width: 100px;
+    background-color:whitesmoke;
+    color: turquoise;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 50px;
+    border-style: solid;
+    border-color: turquoise;
+    border-width: 2px;
+    border-radius: 30px;
+}
+.container {
+    height: 50px;
+    width: 50px;
+    background-color: turquoise;
+}
+
+.mini1 {
+    height: 50px;
+    width: 2px;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+}
+.mini2 {
+    height: 2px;
+    width: 50px;
+    background-color: rgb(255, 0, 0);
+    display:inline-block
+}

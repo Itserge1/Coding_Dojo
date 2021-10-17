@@ -1,0 +1,60 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    min-height: 600px;
+    min-width: 600px;
+    background-color:  silver;
+    padding: 20px;
+}
+.top{
+    min-height: 200px;
+    min-width: 300px;
+    background-color: rgb(56, 242, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.top2{
+    min-height: 200px;
+    min-width: 300px;
+    background-color: rgb(232, 151, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.top3{
+    min-height: 200px;
+    min-width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    min-height: 150px;
+    min-width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+.middle{
+    min-height: 150px;
+    min-width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    min-height: 150px;
+    min-width: 150px;
+    background-color: rgb(253, 253, 253);
+}
+
+img{
+    height: 150px;
+}
