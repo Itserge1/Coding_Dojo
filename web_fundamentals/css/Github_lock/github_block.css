@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+img{
+    height: 150px;
+}
+
+.container{
+    height: 650px;
+    width: 600px;
+    background-color: silver;
+    padding: 20px;
+    margin: auto;
+}
+.blue{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(58, 144, 241);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.pink{
+    height: 200px;
+    width: 600px;
+    background-color: pink;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.white{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
