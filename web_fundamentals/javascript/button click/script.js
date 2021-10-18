@@ -5,6 +5,6 @@ function hide(element) {
     element.remove();
 }
 function like(element) {
-    console.log("Ninja was liked", element);
+    alert("Ninja was liked");
 }
 
