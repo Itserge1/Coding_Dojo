@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wraper{
+    min-width: 1000px;
+}
+.nav{
+    background-color: silver;
+    min-height: 100px;
+    min-width: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav h1{
+    margin-right: 100px;
+}
+.searchbar{
+    min-width: 500px;
+    min-height: 25px;
+    border: black solid 3px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+button{
+    background-color: #4279c2;
+    color: white;
+    padding: 5px 20px;
+    border: black solid 3px;
+    box-shadow: 2px 2px 2px black;
+}
+.middle{
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    min-width: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: black solid 2px;
+    margin-right: 25px;
+}
+.vertical{
+    background-color: rgb(255, 255, 255);
+    min-width: 220px;
+    min-height: 200px;
+    text-align: center;
+}
+#verticalheight{
+    min-width: 220px;
+    min-height: 280px;
+}
+#verticalh1{
+    margin: 20px;
+}
+h3{
+    margin-bottom: 3px;
+}
+#italic {
+    font-style: italic;
+}
+.vertical button{
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    background-color: #eecb5b ;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+}
+.horizontal{
+    background-color: rgb(255, 255, 255);
+    min-width: 400px;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+.horizontal p{
+    padding: 30px;
+}
+.right{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 320px;
+    border: black solid 3px;
+}
+.last{
+    background-color: rgb(125, 146, 6);
+    min-height: 100px;
+    width: 650px;
+}
+#textleft{
+    text-align:left;
+}
+#rightvertical{
+    width: 250px;
+    background-color: #93c47c;
+
+}
+#paddin{
+    padding: 20px;
+}
