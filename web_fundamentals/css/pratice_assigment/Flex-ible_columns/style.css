@@ -1,0 +1,26 @@
+.row, .row2, .row3 {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.col {
+    background-color: rgb(13, 133, 93);
+    height: 50px;
+    margin-left: 10px;
+    flex: 1;
+}
+.col-2{
+    background-color: rgb(13, 133, 93);
+    height: 50px;
+    margin-left: 10px;
+    flex: 2;
+}
+.col-3 {
+    background-color: rgb(13, 133, 93);
+    height: 50px;
+    margin-left: 10px;
+    flex: 3;
+}
