@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <ul class=".classe">
+                <a href="#">
+                    <li id ="Burbank" onclick="city(this)">Burbank</li>
+                </a>
+                <a href="">
+                    <li id ="Chicago" onclick="city1(this)">Chicago</li>
+                </a>
+                <a href="">
+                    <li id ="Dallas" onclick="city2(this)">Dallas</li>
+                </a>
+            </ul>
+        </div>
+        <div class="location">
+            <h2>San Jose</h2>
+            <p>
+                <label for="">show temperature in</label>
+                <select onchange="converts(this)" id="selector">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+            </p>
+        </div>
+        <div class="wrapper">
+            <div class="content">
+                <div class="today">
+                    <h1>Today</h1>
+                    <div class="photo">
+                        <img src="./assets/some_rain.png" alt="some_rain">
+                    </div>
+                    <p><b>some rain</b></p>
+                    <div class="number">
+                        <h2><span class ="red">24</span>°</h2>
+                        <h2><span class ="blue">18</span>°</h2>
+                    </div>
+                </div>
+                <div class="today" id="margin">
+                    <h1>Tomorrow</h1>
+                    <div class="photo">
+                        <img src="./assets/some_sun.png" alt="some_sun">
+                    </div>
+                    <p><b>some sun</b></p>
+                    <div class="number">
+                        <h2> <span class="red">27</span>°</h2>
+                        <h2><span class="blue">19</span>°</h2>
+                    </div>
+                </div>
+                <div class="today" id="margin">
+                    <h1>Friday</h1>
+                    <div class="photo">
+                        <img src="./assets/some_clouds.png" alt="some_clouds">
+                    </div>
+                    <p><b>some clouds</b></p>
+                    <div class="number">
+                        <h2> <span class="red">21</span>°</h2>
+                        <h2><span class="blue">16</span>°</h2>
+                    </div>
+                </div>
+                <div class="today" id="margin">
+                    <h1>Saturday</h1>
+                    <div class="photo">
+                        <img src="./assets/some_sun.png" alt="some sun">
+                    </div>
+                    <p><b>some sun</b></p>
+                    <div class="number">
+                        <h2> <span class="red">26</span>°</h2>
+                        <h2><span class="blue">21</span>°</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="cookie">
+                <div class="lefticon"> <img src="./assets/cookie.png" alt="cookie icon"></div>
+                <div class="cookietext">
+                    <h2>Stop! Cookie time</h2>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads,</p>
+                    <p>to provide social media features and to anlyse our trafic.</p><a href="#">Read more</a></p>
+                </div>
+                <button onclick="hide(this)" class="button" value="I Accept">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scipt.js"></script>
+</body>
+
+</html>

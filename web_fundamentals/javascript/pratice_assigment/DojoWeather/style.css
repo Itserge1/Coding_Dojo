@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: silver;
+    min-height: 200px;
+    min-width: 200px;
+}
+.nav{
+    background-color: rgb(145, 219, 253);
+    min-height: 80px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav ul{
+    min-width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.location{
+    background-color: whitesmoke;
+    min-height: 100px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper{
+    background-color: whitesmoke;
+    min-width: 400px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: whitesmoke;
+    min-height: 300px;
+    min-width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: black solid 3px;
+}
+.today{
+    background-color:  rgb(224, 221, 221);
+    min-height: 200px;
+    min-width: 200px;
+    text-align: center;
+}
+.photo{
+    background-color: cyan;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.photo img{
+    height: 200px;
+    clip-path: circle();
+}
+.number{
+    height: 70px;
+    min-width: 100px;
+    background-color: rgb(224, 221, 221);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: #ff1616;
+}
+.blue{
+    color: #5271ff;
+}
+#margin{
+    margin-left: 20px;
+}
+.today h1{
+    margin: 20px;
+}
+.today p{
+    margin: 15px;
+    font-size: 20px;
+}
+.bottom{
+    background-color: whitesmoke;
+    min-height: 100px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cookie{
+    background-color: silver;
+    min-height: 100px;
+    min-width: 857px;
+    border: solid black 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.lefticon{
+    background-color: silver;
+    min-width: 100px;
+    min-height: 100px;
+}
+.lefticon img{
+    margin: 20px 15px 20px 13px;
+}
+.cookietext{
+    background-color: darkorange;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: left;
+    padding: 10px;
+}
+.button{
+    min-width: 100px;
+    min-height: 30px;
+    background-color: #9dbff0;
+    box-shadow: black 5px 5px 5px;
+}
