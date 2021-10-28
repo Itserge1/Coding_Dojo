@@ -4,18 +4,19 @@ class Pet:
         self.tricks = tricks
         self.health = 100
         self.energy = 200
-        def sleep():
-            f"{self.name} is sleeping"
-            return self
-        def eat():
-            print(f"{self.name} is eating")
-            return self  
-        def play():
-            print(f"{self.name} is plaing")
-            return self  
-        def make_noise():
-            print(f"{self.noise} is making noise")
-            return self 
+        self.noise = ""
+    def sleep(self):
+        f"{self.name} is sleeping"
+        return self
+    def eat(self):
+        print(f"{self.name} is eating")
+        return self  
+    def play(self):
+        print(f"{self.name} is plaing")
+        return self  
+    def make_noise(self):
+        print(self.noise)
+        return self.noise
 
 class Dog(Pet):
     def __init__(self,name, tricks, health, energy):

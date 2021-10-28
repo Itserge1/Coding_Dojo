@@ -13,5 +13,5 @@ class Ninja:
         print(f"{self.first_name} {self.last_name} is feeding his {self.pet.name} with some {self.pet_food}")
         return self
     def bathe(self):
-        print(f"{self.first_name} {self.last_name} is giving his {self.pet.make_noise()} a shower")
+        print(f"{self.first_name} {self.last_name} is giving his {self.pet.name} a shower")
         return self

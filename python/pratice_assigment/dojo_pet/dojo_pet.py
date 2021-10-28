@@ -1,10 +1,13 @@
 from ninja import Ninja
-from pet import Pet
+from pet import Pet, Dog
 
 
 
-black_night = Ninja( "Black", "night", "yogurt", "pumpkin", Pet("bommy","sit", 100 , 200 ))
-black_night.walk()
+black_night = Ninja( "Black", "night", "yogurt", "pumpkin", Dog("bommy","sit", 100 , 200 ))
+# black_night.walk()
+# black_night.feed()
+black_night.bathe()
+
 
 
 
