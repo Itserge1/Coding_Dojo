@@ -13,7 +13,6 @@
             color: blue;
         }
         #col{
-            background-color: rgb(80, 194, 240);
             border-radius: 15px;
         }
     </style>
@@ -23,8 +22,8 @@
     <h2 class="text-center mt-5">Welcome!</h2>
     <div class="container d-flex justify-content-evenly">
         <div class="row mt-5 gap-5 d-flex justify-content-center align-items-center" style="width: 950px;">
-            {% for i in range (0, 3) %}
-                <div id = col class="col-lg-8 border border-dark border-3 " style="width: 200px; height: 200px">Column</div>
+            {% for i in range (0, num) %}
+                <div id = col class="col-lg-8 border border-dark border-3 " style="width: 200px; height: 200px;  background-color: {{color}};">Column</div>
             {% endfor %}
         </div>
     </div>
