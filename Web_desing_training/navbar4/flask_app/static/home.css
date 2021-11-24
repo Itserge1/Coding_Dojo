@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+}
+
+/* Navbar */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(22, 21, 21);
+    color: rgb(223, 223, 223);
+    padding: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 25px; */
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    position: relative;
+    color: rgb(223, 223, 223);
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0px 5px;
+}
+
+.nav-links ul li a:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgb(233, 233, 233);
+}
+
+/* .nav-links ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 1.25rem;
+    left: 0rem;
+    width: 0%;
+    height: 3px;
+} */
+
+.nav-links ul li a:hover::after{
+    width: 100%;
+    transition: 0.50s;
+}
+
+.nav-button{
+    margin-left: 4rem;
+}
+
+.nav-button a button{
+    background-color: whitesmoke;
+    color: rgb(22, 21, 21);
+    padding: 5px 15px;
+    border: 0px solid black;
+    border-radius: 3px;
+}
+
+/* Responsive */
+
+.menu-toggle,
+.menu-close{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .nav{
+        height: 50px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+    .menu-toggle{
+        display: inline;
+        font-size: 1.7rem;
+    }
+    .menu-close{
+        position: absolute;
+        display: block;
+        right: 28px;
+        top: 10px;
+        font-size: 1.7rem;
+        border-radius: 50%;
+    }
+    .menu-close:hover{
+        background-color: white;
+        color: rgb(22, 21, 21);
+    }
+    .nav-links{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: rgb(22, 21, 21);
+        color: rgb(223, 223, 223);
+        width: 60%;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 100;
+        transition: 0.8s;
+        border-radius: 0 0 0 50%;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        /* line-height: 82px; */
+    }
+    .item{
+        margin: 2rem 0;
+    }
+    .nav-button{
+        margin-left: 0;
+    }
+    .show{
+        right: 0;
+    }
+
+}
