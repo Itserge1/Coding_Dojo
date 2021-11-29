@@ -1,0 +1,15 @@
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/collections_practice.deps.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/collections_practice.runtimeconfig.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/collections_practice.runtimeconfig.dev.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/collections_practice.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/ref/collections_practice.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/bin/Debug/net5.0/collections_practice.pdb
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.csprojAssemblyReference.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.AssemblyInfoInputs.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.AssemblyInfo.cs
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/ref/collections_practice.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.pdb
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/collections_practice/obj/Debug/net5.0/collections_practice.genruntimeconfig.cache
