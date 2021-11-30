@@ -1,0 +1,15 @@
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/puzzles.deps.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/puzzles.runtimeconfig.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/puzzles.runtimeconfig.dev.json
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/puzzles.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/ref/puzzles.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/bin/Debug/net5.0/puzzles.pdb
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.csprojAssemblyReference.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.AssemblyInfoInputs.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.AssemblyInfo.cs
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/ref/puzzles.dll
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.pdb
+/Users/sergehountondji/Desktop/dojo_assigment/Coding_Dojo/csharp/puzzles/obj/Debug/net5.0/puzzles.genruntimeconfig.cache
