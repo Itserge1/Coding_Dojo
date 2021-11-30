@@ -1,0 +1,15 @@
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.csprojAssemblyReference.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.AssemblyInfoInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.AssemblyInfo.cs
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/human.deps.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/human.runtimeconfig.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/human.runtimeconfig.dev.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/human.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/ref/human.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/bin/Debug/net5.0/human.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/ref/human.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/human/obj/Debug/net5.0/human.genruntimeconfig.cache
