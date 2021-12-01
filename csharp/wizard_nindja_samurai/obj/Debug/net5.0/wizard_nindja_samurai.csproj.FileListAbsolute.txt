@@ -1,0 +1,15 @@
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.csprojAssemblyReference.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.AssemblyInfoInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.AssemblyInfo.cs
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/wizard_nindja_samurai.deps.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/wizard_nindja_samurai.runtimeconfig.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/wizard_nindja_samurai.runtimeconfig.dev.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/wizard_nindja_samurai.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/ref/wizard_nindja_samurai.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/bin/Debug/net5.0/wizard_nindja_samurai.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/ref/wizard_nindja_samurai.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/wizard_nindja_samurai/obj/Debug/net5.0/wizard_nindja_samurai.genruntimeconfig.cache
