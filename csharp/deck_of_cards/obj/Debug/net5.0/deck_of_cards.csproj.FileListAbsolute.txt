@@ -1,0 +1,15 @@
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.csprojAssemblyReference.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.AssemblyInfoInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.AssemblyInfo.cs
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/deck_of_cards.deps.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/deck_of_cards.runtimeconfig.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/deck_of_cards.runtimeconfig.dev.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/deck_of_cards.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/ref/deck_of_cards.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/bin/Debug/net5.0/deck_of_cards.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/ref/deck_of_cards.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/deck_of_cards/obj/Debug/net5.0/deck_of_cards.genruntimeconfig.cache
