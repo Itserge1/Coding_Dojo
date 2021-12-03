@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DojoSurvey
+
+    <form asp-action="Process" asp-controller="Home" method="post" style="width: 400px;">
+        <h1>Tell Us About Your Pet</h1>
+        <div class="mb-3">
+            <label for="name"  class="form-label">Your Name:</label>
+            <input asp-for="name" class="form-control" id="name" style="width: 300px;">
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div>
+        <label for="location" class="form-label">Dojo Location</label><br>
+        <select class="form-select" name="location" aria-label="Default select example" style="width: 300px;" id="location">
+            <option selected hidden disabled>Locations</option>
+            <option value="San Jose">San Jose</option>
+            <option value="California">California</option>
+            <option value="Nashville">Nashville</option>
+        </select><br><br>
+        <span asp-validation-for="location" class="text-danger"></span>
+        </div>
+        <div>
+        <label for="language" class="form-label">Favorite Language</label><br>
+        <select class="form-select" name="language" aria-label="Default select example" style="width: 300px;" id="language">
+            <option selected hidden disabled>Languages</option>
+            <option value="Java">Java</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+        </select><br><br>
+        <span asp-validation-for="language" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" name="comment" placeholder="Leave a comment here" style="width: 300px;" id="comments"
+                style="height: 100px"></textarea>
+            <span asp-validation-for="comment" class="text-danger"></span>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
