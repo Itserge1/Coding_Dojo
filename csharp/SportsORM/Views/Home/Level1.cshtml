@@ -1,0 +1,113 @@
+<div class="card">
+    <div class="card-header bg-dark text-light">Level 1</div>
+    <div class="card-body">
+        <p>Using the SportsORM, complete all the following queries and show their results on Level1.cshtml.</p>
+        <ol>
+            <li><b>...all womens' leagues</b></li>
+            @foreach(var l in ViewBag.WomenLeagues)
+            {
+                <ul>
+                    <li>@l.Name</li>
+                </ul>
+            }
+            <li><b>...all leagues where sport is any type of hockey</b></li>
+            @foreach(var l in ViewBag.HockeySport)
+            {
+                <ul>
+                    <li>@l.Name</li>
+                </ul>
+            }
+            <li><b>...all leagues where sport is something OTHER THAN football</b></li>
+            @foreach(var l in ViewBag.NonfootballSport)
+            {
+                <ul>
+                    <li>@l.Name</li>
+                </ul>
+            }
+            <li><b>...all leagues that call themselves "conferences"</b></li>
+            @foreach(var l in ViewBag.Conferences)
+            {
+                <ul>
+                    <li>@l.Name</li>
+                </ul>
+            }
+            <li><b>...all leagues in the Atlantic region</b></li>
+            @foreach(var l in ViewBag.AtlanticLeagues)
+            {
+                <ul>
+                    <li>@l.Name</li>
+                </ul>
+            }
+            <li><b>...all teams based in Dallas</b></li>
+            @foreach(var l in ViewBag.TeamsLocation)
+            {
+                <ul>
+                    <li>@l.TeamName</li>
+                </ul>
+            }
+            <li><b>...all teams named the Raptors</b></li>
+            @foreach(var l in ViewBag.TeamsRaptors)
+            {
+                <ul>
+                    <li>@l.TeamName, @l.Location, @l.LeagueId</li>
+                </ul>
+            }
+            <li><b>...all teams whose location includes "City"</b></li>
+            @foreach(var l in ViewBag.IncludeCity)
+            {
+                <ul>
+                    <li>@l.TeamName, @l.Location</li>
+                </ul>
+            }
+            <li><b>...all teams whose names begin with "T"</b></li>
+            @foreach(var l in ViewBag.NameStarT)
+            {
+                <ul>
+                    <li>@l.TeamName, @l.Location</li>
+                </ul>
+            }
+            <li><b>...all teams, ordered alphabetically by location</b></li>
+            @foreach(var l in ViewBag.AllAlphabetic)
+            {
+                <ul>
+                    <li>@l.Location</li>
+                </ul>
+            }
+            <li><b>...all teams, ordered by team name in reverse alphabetical order</b></li>
+            @foreach(var l in ViewBag.AllDesc)
+            {
+                <ul>
+                    <li>@l.Location</li>
+                </ul>
+            }
+            <li><b>...every player with last name "Cooper"</b></li>
+            @foreach(var l in ViewBag.PlayerCooper)
+            {
+                <ul>
+                    <li>@l.LastName, @l.FirstName, @l.CurrentTeam</li>
+                </ul>
+            }
+            <li><b>...every player with first name "Joshua"</b></li>
+            @foreach(var l in ViewBag.PlayerJoshua)
+            {
+                <ul>
+                    <li>@l.FirstName, @l.LastName, @l.CurrentTeam</li>
+                </ul>
+            }
+            <li><b>...every player with last name "Cooper" EXCEPT those with "Joshua" as the first name</b></li>
+            @foreach(var l in ViewBag.PlayerCooperNoJoshua)
+            {
+                <ul>
+                    <li>@l.FirstName, @l.LastName, @l.CurrentTeam</li>
+                </ul>
+            }
+            <li><b>...all players with first name "Alexander" OR first name "Wyatt"</b></li>
+            @foreach(var l in ViewBag.PlayerAlexanderWyatt)
+            {
+                <ul>
+                    <li>@l.FirstName, @l.LastName</li>
+                </ul>
+            }
+        </ol>
+    </div>
+</div>
