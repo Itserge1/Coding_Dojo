@@ -1,0 +1,15 @@
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/fundamentals1.deps.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/fundamentals1.runtimeconfig.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/fundamentals1.runtimeconfig.dev.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/fundamentals1.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/ref/fundamentals1.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/bin/Debug/net5.0/fundamentals1.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.csprojAssemblyReference.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.AssemblyInfoInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.AssemblyInfo.cs
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/ref/fundamentals1.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/fundamentals1/obj/Debug/net5.0/fundamentals1.genruntimeconfig.cache
