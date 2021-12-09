@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a asp-action="Index">Home</a>
+    <div class="top">
+    <h1>@ViewBag.DisH.Name</h1>
+    <h4>@ViewBag.DisH.ChefName</h4>
+    </div>
+    <p><b>Description:</b>   @ViewBag.DisH.Description</p>
+    <p><b>Calories:</b>   @ViewBag.DisH.Calories</p>
+    <p><b>Taistiness:</b>   @ViewBag.DisH.Tastiness</p>
+
+    <a href="/edit/@ViewBag.DisH.DishId" class="btn btn-success btn-sm">Edit</a>  |  <a href="/delete/@ViewBag.DisH.DishId" class="btn btn-danger btn-sm">Delete</a>
+</body>
+</html>
