@@ -38,7 +38,7 @@ namespace LoginAndRegistration.Controllers
         public IActionResult Success()
         {
             // string checkId = HttpContext.Session.GetString("newUserId");
-            string checkIds = HttpContext.Session.GetString("ExistingUserId");
+            int? checkIds = HttpContext.Session.GetInt32("UserId");
             if( checkIds == null)
             {
                 return View("Index");
@@ -46,20 +46,20 @@ namespace LoginAndRegistration.Controllers
             return View("Success");
         }
 
-        // ++++++++++++++++++++++++
-        //     SUCCESS2 ROUTE
-        // ++++++++++++++++++++++++
+        // // ++++++++++++++++++++++++
+        // //     SUCCESS2 ROUTE
+        // // ++++++++++++++++++++++++
 
-        [HttpGet ("successR")]
-        public IActionResult SuccessR()
-        {
-            string checkId = HttpContext.Session.GetString("newUserId");
-            if( checkId == null)
-            {
-                return View("Index");
-            }
-            return View("Success");
-        }
+        // [HttpGet ("successR")]
+        // public IActionResult SuccessR()
+        // {
+        //     int? checkId = HttpContext.Session.GetInt32("UserId");
+        //     if( checkId == null)
+        //     {
+        //         return View("Index");
+        //     }
+        //     return View("Success");
+        // }
         // ++++++++++++++++++++++++
         //     PROCESS ROUTE
         // ++++++++++++++++++++++++
@@ -82,8 +82,8 @@ namespace LoginAndRegistration.Controllers
                 // Don't forget to save
                 _context.SaveChanges();
                 User newUsers = _context.Users.FirstOrDefault(u => u.Email == newUser.Email);
-                HttpContext.Session.SetString("newUserId", $"{newUsers.UserId}");
-                return RedirectToAction("successR");
+                HttpContext.Session.SetInt32("UserId", newUsers.UserId);
+                return RedirectToAction("Success");
             }
             else
             {
@@ -115,7 +115,7 @@ namespace LoginAndRegistration.Controllers
                     ModelState.AddModelError("lEmail", "Invalid Login attempt");
                     return View("Index");
                 }
-                HttpContext.Session.SetString("ExistingUserId", $"{userinDb.UserId}");
+                HttpContext.Session.SetInt32("UserId", userinDb.UserId);
                 return RedirectToAction("Success");
             }
             else
