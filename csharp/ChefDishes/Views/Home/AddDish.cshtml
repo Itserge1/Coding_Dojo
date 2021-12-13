@@ -1,0 +1,64 @@
+@model Dish
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="text-center">Add Dish</h1>
+    <a href="/">Home</a>
+    <form action="adddish" method="post" style="width: 400px;" class="mt-3">
+        <div class="mb-3">
+            <label for="DishName" class="form-label">Dish Name</label>
+            <input asp-for="DishName" class="form-control" id="DishName">
+            <span asp-validation-for = "DishName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Calories" class="form-label">Calories</label>
+            <input asp-for="Calories" class="form-control" id="Calories">
+            <span asp-validation-for = "Calories" class="text-danger"></span>
+        </div>
+        <div class="form-floating">
+            <label for="Description" class="form-label" id="Description">Description</label>
+            <textarea asp-for="Description" class="form-control" id="Description" placeholder="Leave a comment here" id="Description"
+                style="height: 100px"></textarea>
+            <span asp-validation-for = "Description" class="text-danger"></span>
+        </div><br>
+        <div class="mb-3">
+            <label for="Tastiness" class="form-label">Tastiness</label>
+            <select asp-for="Tastiness" class="form-select" id="Tastiness" style="width: 400px;"
+                aria-label="Default select example">
+                <option selected hidden disabled>Open this select menu</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span asp-validation-for = "Tastiness" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="ChefId" class="form-label">Chef</label>
+            <select asp-for="ChefId" class="form-select" id="ChefId" style="width: 400px;"
+                aria-label="Default select example">
+                <option selected hidden disabled>Open this select menu</option>
+                @{
+                    foreach(Chef u in ViewBag.AllChefs)
+                    {
+                        <option value="@u.ChefId">@u.Firstname @u.Lastname</option>
+                    }
+                }
+            </select>
+            <span asp-validation-for = "ChefId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Dish</button>
+    </form>
+</body>
+
+</html>
