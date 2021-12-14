@@ -1,0 +1,49 @@
+@model Category
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper d-flex justify-content-around">
+        <div class="left">
+            <h1>Add Categories</h1>
+            <form action="addcategory" method="post" style="width: 400px;">
+                <div class="mb-3">
+                    <label for="CategoryName" class="form-label">Name</label>
+                    <input asp-for="CategoryName" class="form-control" id="CategoryName">
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="rifgt">
+            <h1>Categories</h1>
+            <table class="table table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Categories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Category v in ViewBag.AllCategories)
+                        {
+                            <tr>
+                                <th scope="row"><a href="category/@v.CategoryId">@v.CategoryName</a></th>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

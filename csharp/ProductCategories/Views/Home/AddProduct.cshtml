@@ -1,0 +1,60 @@
+@model Product
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapp d-flex justify-content-around">
+        <div class="left">
+            <h1>New Products</h1>
+            <form action="addproduct" method="post" style="width: 400px;">
+                <div class="mb-3">
+                    <label for="ProductName" class="form-label">Name</label>
+                    <input asp-for="ProductName" class="form-control" id="ProductName">
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="form-floating">
+                    <label for="ProductDescription" class="form-label">Description</label>
+                    <textarea class="form-control" asp-for="ProductDescription" placeholder="Leave a comment here"
+                        id="ProductDescription" style="height: 100px"></textarea>
+                    <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="ProductPrice" class="form-label">Price</label>
+                    <input asp-for="ProductPrice" class="form-control" id="ProductPrice">
+                    <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="right">
+            <h1>Existing Products</h1>
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Products</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Product p in ViewBag.AllProduct)
+                        {
+                            <tr>
+                                <td><a href="/products/@p.ProductId">@p.ProductName</a></td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
