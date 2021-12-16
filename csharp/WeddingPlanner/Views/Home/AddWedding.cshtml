@@ -1,0 +1,42 @@
+@model Wedding
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<a href="/dashboard">Dashboard</a>
+
+<div class="Wrapper d-flex justify-content-around">
+    <div class="register">
+        <form action="/addwedding" method="post" style="400px">
+            <h1>Plan Your Wedding</h1>
+            <div class="mb-3">
+                <label for="WedderOne" class="form-label">Wedder One</label>
+                <input asp-for="WedderOne" class="form-control" id="WedderOne">
+                <span asp-validation-for = "WedderOne" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="WedderTwo" class="form-label">Wedder Two</label>
+                <input asp-for="WedderTwo" class="form-control" id="WedderTwo">
+                <span asp-validation-for = "WedderTwo" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Date" class="form-label">Date</label>
+                <input asp-for="Date" class="form-control" id="Date">
+                <span asp-validation-for = "Date" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Adress" class="form-label">Wedding Adress</label>
+                <input asp-for="Adress" class="form-control" id="Adress">
+                <span asp-validation-for = "Adress" class="text-danger"></span>
+            </div>
+            @* <input type="hidden" name="UserId" value="@Context.Session.GetInt32("UserID")"> *@
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+

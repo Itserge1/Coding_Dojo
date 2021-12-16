@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DashBoard</h1>
+    <a href="/newwedding">addwedding</a>
+    <a href="logout">Logout</a>
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Wedding</th>
+                <th scope="col">Date</th>
+                <th scope="col">Action</th>
+                <th scope="col">Guess</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (Wedding u in ViewBag.AllWedding)
+                {
+                    <tr>
+                        <td><a href="/view/@u.WeddingId">@u.WedderOne & @u.WedderTwo</a></td>
+                        <td>@u.Date</td>
+                        @{
+                            if(u.UserId == ViewBag.UserID)
+                            {
+                                <td><a href="/delete/@u.WeddingId">Delete</a></td>
+                            }
+                            else if (u.GuessI.Any(f => f.UserId == ViewBag.UserID))
+                            {
+                                <td><a href="#">un-RSVP</a></td>
+                            }
+                            else
+                            {
+                                <td><a href="/addguess/@u.WeddingId">RSVP</a></td>
+                            }
+                        }
+                        <td>@u.GuessI.Count()</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>
