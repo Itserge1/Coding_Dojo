@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 const Addtask = (props) => {
-    const [isValid, setisValid] = useState(false)
+    // const [isValid, setisValid] = useState(false)
     const [Text, setText] = useState("")
     const [Arr, setArr] = useState([])
     
@@ -48,15 +48,19 @@ const Addtask = (props) => {
     // delete task
     const deleteText = (index) => {
         
-        // *** 1
+        // // *** 1
         // console.log(`delete ${index}`);
         // const newArr = [...Arr];
         // newArr.splice(index, 1);
-        // *** 2
-        const newArr = [
-            ...Arr.slice(0,index),
-            ...Arr.slice(index+1)
-        ]
+        // // *** 2
+        // const newArr = [
+        //     ...Arr.slice(0,index),
+        //     ...Arr.slice(index+1)
+        // ]
+        // *** 3
+        console.log(`delete ${index}`);
+        const DuplicateArr = [...Arr];
+        const newArr = DuplicateArr.filter((task) => task !== DuplicateArr[index])
 
         setArr(newArr)
     }
@@ -68,7 +72,7 @@ const Addtask = (props) => {
                 <div className="">
                     {
                         Arr.map((task, i) => {
-                            return <p key={i} index={i}> <span className={task.isValid ? "text" : ""}>{task.text}</span> 
+                            return <p key={i} > <span className={task.isValid ? "text" : ""}>{task.text}</span> 
                             <input onChange={() => {checkBox(i)}} type="checkbox" /> <button className="delButton" onClick={()=>{deleteText(i)}} >Delete</button></p>
                         })
                     }
