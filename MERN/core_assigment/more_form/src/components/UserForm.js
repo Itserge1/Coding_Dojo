@@ -78,7 +78,7 @@ const UserForm = (props) => {
     return (
         <div>
             <div className="App">
-                <form class ="form" onSubmit={createUser}>
+                <form className ="form" onSubmit={createUser}>
                     <div>
                         <label>First Name: </label>
                         <input type="text" onChange={handlefirstName} />

@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Funtime
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a href="/dashboard">Dashboard</a>
+
+<div class="Wrapper d-flex justify-content-around">
+    <div class="register">
+        <form action="/addfuntime" method="post" style="400px">
+            <h1>Create Activity</h1>
+            <div class="mb-3">
+                <label for="Title" class="form-label"> Title</label>
+                <input asp-for="Title" class="form-control" id="Title">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Time" class="form-label">ActivityTime</label>
+                <input asp-for="Time" class="form-control" id="Time"><br>
+                <span asp-validation-for="Time" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Date" class="form-label">Date</label>
+                <input asp-for="Date" min="2021-12-17"class="form-control" id="Date">
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Duration" class="form-label">Duration</label>
+                <input asp-for="Duration" class="form-control" id="Duration">
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="DurationAmount" class="form-label">Duration Amount</label>
+                <select class="form-select" asp-for="DurationAmount" id="DurationAmount"
+                    aria-label="Default select example">
+                    <option selected hidden disabled>Open this select menu</option>
+                    <option value="Hours">Hours</option>
+                    <option value="Minutes">Minutes</option>
+                    <option value="Days">Days</option>
+                </select>
+                <span asp-validation-for="DurationAmount" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <label for="Description">Description</label>
+                <textarea asp-for="Description" id="Description"class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div><br>
+            <button type="submit" class="btn btn-primary">Create Activity</button>
+        </form>
+    </div>
+</div>

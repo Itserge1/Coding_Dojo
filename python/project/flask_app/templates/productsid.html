@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>productsid</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='productsid.css')}}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/dashboard"><h1>Soccer</h1></a>
+            <ul>
+                <li><a href="/dashboard">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/community">Community</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+            <button class="button" onclick="window.location.href='/logout'">Logout</button>
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="left">
+                    <img src="{{ url_for('static', filename='images/produc.jpg')}}" alt="product image">
+                </div>
+                <div class="right">
+                    <div class="name">
+                        <h1>Product Name</h1>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="description">
+                        <h2>Description:</h2>
+                        <p>A paragraph is a coherent block of text, such as a group of related sentences that develop a
+                            single topic or a coherent part of a larger topic. A blank line contains zero or more
+                            non-printing characters, such as space or tab, followed by a new line.A paragraph is a
+                            coherent block of text, such as a group of related sentences that develop a single topic or
+                            a coherent part of a larger topic. A blank line contains zero or more non-printing
+                            characters, such as space or tab, followed by a new line.
+                        </p>
+                        <button class="button" onclick="window.location.href='#'">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <h3>You Might Also Like</h3>
+            <div class="bottom">
+                <div class="content-two">
+                    <div class="product">
+                        <div class="productimage">
+                            <a href="/productsid"><img src="{{ url_for('static', filename='images/product.png')}}" alt="product image"></a>
+                        </div>
+                        <p id="name">Product Name</p>
+                        <p>$ 50.00</p>
+                    </div>
+                    <div class="product">
+                        <div class="productimage">
+                            <a href="/productsid"><img src="{{ url_for('static', filename='images/product.png')}}" alt="product image"></a>
+                        </div>
+                        <p id="name">Product Name</p>
+                        <p>$ 50.00</p>
+                    </div>
+                    <div class="product">
+                        <div class="productimage">
+                            <a href="/productsid"><img src="{{ url_for('static', filename='images/product.png')}}" alt="product image"></a>
+                        </div>
+                        <p id="name">Product Name</p>
+                        <p>$ 50.00</p>
+                    </div>
+                    <div class="product">
+                        <div class="productimage">
+                            <a href="/productsid"><img src="{{ url_for('static', filename='images/product.png')}}" alt="product image"></a>
+                        </div>
+                        <p id="name">Product Name</p>
+                        <p>$ 50.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="foter">
+                <div class="star">
+                    <ul>
+                        <li><a href="/dashboard">Home</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/community">Community</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="midlle">
+                    <p> 2021 Soccer, Inc</p>
+                </div>
+                <!-- <div class="end"></div>  -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

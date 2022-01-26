@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/Exam/Exam.csproj": {}
+  },
+  "projects": {
+    "/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/Exam/Exam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/Exam/Exam.csproj",
+        "projectName": "Exam",
+        "projectPath": "/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/Exam/Exam.csproj",
+        "packagesPath": "/Users/sergehountondji/.nuget/packages/",
+        "outputPath": "/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/Exam/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sergehountondji/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/5.0.207/libexec/sdk/5.0.207/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

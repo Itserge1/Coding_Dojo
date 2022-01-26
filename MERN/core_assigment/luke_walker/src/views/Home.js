@@ -12,8 +12,8 @@ const Home = (props) => {
     }
     return (
         <div>
-            <div className="search">
-                <form onSubmit= {onsubmitHandler}>
+            <div >
+                <form className="search" onSubmit= {onsubmitHandler}>
                     <p>Search for:</p>
                     <select defaultValue = "people" onChange= {(event) => setWord(event.target.value)}>
                         {/* <option selected disabled hidden >chose</option> */}

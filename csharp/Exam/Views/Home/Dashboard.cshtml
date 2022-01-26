@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DashBoard</h1>
+    <a href="/newfuntime">Addactivity</a>
+    <a href="logout">Logout</a>
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Activity</th>
+                <th scope="col">Date and time</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Even Coordinator</th>
+                <th scope="col">No. of Participants</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (Funtime u in ViewBag.AllFuntime)
+                {
+                    <tr>
+                        <td><a href="Viewfuntime/@u.FuntimeId">@u.Title</a></td>
+                        <td>@u.Date.ToString("MM/dd") at @u.Time.ToString("hh:mm tt")</td>
+                        <td>@u.Duration @u.DurationAmount</td>
+                        <td>@u.User.Name</td>
+                        <td>@u.GessesI.Count()</td>
+                        @{
+                            if(u.UserId == ViewBag.UserID)
+                            {
+                                <td><a href="delete/@u.FuntimeId">Delete</a></td>
+                            }
+                            else if (u.GessesI.Any(f => f.UserId == ViewBag.UserID))
+                            {
+                                <td><a href="remove/@u.FuntimeId">Leave</a></td>
+                            }
+                            else
+                            {
+                                <td><a href="addguess/@u.FuntimeId">Join</a></td>
+                            }
+                        }
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>

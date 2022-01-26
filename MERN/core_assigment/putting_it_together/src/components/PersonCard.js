@@ -27,8 +27,6 @@ class PersonCard extends Component {
             </div>
         );
     }
-
-
 }
 
 export default PersonCard;

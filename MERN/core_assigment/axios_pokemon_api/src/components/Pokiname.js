@@ -21,7 +21,6 @@ const Pokiname = (props) => {
 
         // **** Using axios
         axios.get("https://pokeapi.co/api/v2/pokemon?limit=807&offset=0")
-        // .then(res => res.json())
         .then(res => {
             // set state 
             console.log(res)

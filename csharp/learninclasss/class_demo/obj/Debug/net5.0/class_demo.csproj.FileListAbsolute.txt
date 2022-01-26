@@ -1,0 +1,15 @@
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/class_demo.deps.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/class_demo.runtimeconfig.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/class_demo.runtimeconfig.dev.json
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/class_demo.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/ref/class_demo.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/bin/Debug/net5.0/class_demo.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.csprojAssemblyReference.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.AssemblyInfoInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.AssemblyInfo.cs
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.csproj.CoreCompileInputs.cache
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/ref/class_demo.dll
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.pdb
+/Users/sergehountondji/Downloads/dojo_assigment/Coding_Dojo/csharp/learninclasss/class_demo/obj/Debug/net5.0/class_demo.genruntimeconfig.cache

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color: #e9e9eb;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #165397;
+    text-decoration: none;
+}
+
+.navbar{
+    /* background-color: #fdfefe; */
+}
+
+.navcenter ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+} 
+
+.navcenter ul li {
+    font-size: 15px;
+} 
+
+.navcenter ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navcenter ul li a:hover{
+    color: #165397;
+}
+
+/* Logout Button */
+
+.button{
+    height: 30px;
+    width: 70px;
+    background-color: #165397;
+    border-radius: 5px 10px;
+    color: #e9e9eb;
+    border: solid whitesmoke 0px;
+}
+.button:hover{
+    background-color: #000;
+}
+
+/* image */
+
+.image{
+    position: absolute;
+    top: calc(50% - 200px);
+    right: 5%;
+    z-index: 999;
+
+}
+.image img{
+    height: 500px;
+    filter: drop-shadow(-140px -140px 5px rgba(0,0,0,0.5));
+    transition: 0.5s;
+}
+
+.image img:hover{
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+} 
+
+/* content */
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 996;
+}
+.content h2{
+    font-size: 300px;
+    color: #165397;
+}
+
+.content:hover h2{
+    color: #000;
+    transition: 0.5%;
+}
+
+.content h4{
+    font-size: 70px;
+    color: #000;
+}
+
+.content:hover h4{
+    color: #165397;
+}
+
+.icons{
+    height: 500px;
+    width: 65px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 250px);
+    background-color: #1c5da4;
+    border-radius: 0px 60px 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 998;
+}
+
+.icons:hover{
+    background-color: #000;
+}
+.icons a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: #e9e9eb;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    margin: 30px 0px;
+}
+
+.icons a:hover{
+    color: #1b66bb;
+}
+
+/* pagination */
+
+.pagination{
+    position: absolute;
+    bottom: 4%;
+    right: 20%;
+    z-index: 995;
+}
+
+.pagination a{
+    text-decoration: none;
+    font-size: 70px;
+    color: #000;
+    margin: 0px 30px;
+    /* transition: 0.5s; */
+}
+
+
+.pagination a:hover{
+    color: #1c5da4;
+}
+/* Lines */
+.line1,.line2{
+    height: 100px;
+    width: 60px;
+    background-color: #000;
+    position: absolute;
+    left: 20%;
+    transform: skewX(-45deg);
+    bottom: 0%;
+}
+
+
+.line2{
+    height: 40px;
+    left: 26%;
+}
